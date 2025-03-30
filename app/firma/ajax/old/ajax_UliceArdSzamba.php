@@ -1,0 +1,35 @@
+<?php
+
+// Pobieramy wartość z formularza
+
+$ulica_adresu_w_szamba = $_POST["UlicaAdrSzamba"];
+
+// Łączymy się z bazą __user__QL
+$host = '__host__';
+$dbname = '__dbname__';
+$user_db = '__user__';
+$password_db = '__passwd__';
+// Połącz z bazą danych
+$dsn = "pgsql:host=$host;dbname=$dbname";
+
+$baza_danych = new PDO($dsn, $user_db, $password_db);
+
+// Pobieramy wartość z formularza
+
+// Wykonujemy zapytanie SQL
+$zapytanie = $baza_danych->prepare("SELECT distinct ulica FROM adresy WHERE ulica like :aaa order by ulica");
+$ulica_adresu_w_szamba = $ulica_adresu_w_szamba.'%';
+$zapytanie->bindParam(':aaa', $ulica_adresu_w_szamba);
+$zapytanie->execute();
+$przewidywane_ulice = $zapytanie->fetchAll(PDO::FETCH_ASSOC);
+// Sprawdzamy, czy wartość znajduje się w tabeli
+
+if ($przewidywane_ulice){
+	$json = json_encode($przewidywane_ulice);
+	echo $json;
+}
+else{
+	echo 'nic';
+}
+?>
+

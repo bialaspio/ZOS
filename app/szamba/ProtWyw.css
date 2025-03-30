@@ -1,0 +1,315 @@
+.protWyw{
+	
+	margin-top:100px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 50%;
+	/*border: 1px solid gray;*/
+	width:980px;
+	height:400px;
+}
+
+.DataMiej{
+    align-items: center;
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+    gap: .5rem;
+    left: inherit;
+    padding: 0;
+    position: static;
+    top: inherit;
+    z-index: inherit;
+	padding-top:10px;
+	border-left:1px solid gray;
+	border-right:1px solid gray;
+	border-top:1px solid gray;
+}
+.div_h1{
+	align-items: center;
+	display: flex;
+	border-left:1px solid gray;
+	border-right:1px solid gray;
+}
+
+.dataProtWyw{
+	width:50%;
+	text-align: left;
+	padding-left:20px;
+}
+
+.miejProtWyw{
+	width:50%;
+	text-align: right;
+	padding-right:20px;
+}
+
+.TytulProtWyw{
+	margin: auto;
+	padding: 10px;
+}
+
+.daneProtWyw{
+    align-items: center;
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+    gap: .5rem;
+    left: inherit;
+    padding: 0;
+    position: static;
+    top: inherit;
+    z-index: inherit;
+	padding-top:30px;
+	border-left:1px solid gray;
+	border-right:1px solid gray;
+}
+
+.divFirma{
+	border-bottom:1px solid gray;
+	border-top:1px solid gray;
+	width:100%;
+	height:100px;
+	display: flex;
+}
+
+.divFirmaLab{
+	width: 20%;
+    height: 100%;
+    display: grid;
+    border-right: 1px solid gray;
+    text-align: center;
+}
+
+.labFirmH{
+	margin: auto;
+	padding: 10px;
+}
+
+.divFirmaDane{
+	width:80%;
+	height:100%;
+	margin: auto;
+	display:inline-flex;
+	border-right:1px solid gray;
+}
+
+.divFirmaDaneLab{
+	width:30%;
+	height:100%;
+	display:grid;
+	text-align:center;
+	padding-top:7px;
+	
+}
+
+.divFirmaDaneDane{
+	width:70%;
+	height:100%;
+	display:grid;
+	align-content: space-around;
+	border-left:1px solid gray;
+}
+
+/*oczyszczalnia płatność                                                                                                                                           */
+.divOczyPlat{
+	align-items: center;
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+    gap: .3rem;
+    left: inherit;
+    padding: 0;
+    position: static;
+    top: inherit;
+    z-index: inherit;
+	height:60px
+}
+
+
+.divOczyszczalnia{
+	
+	width:100%;
+	height:60px;
+	display: flex;
+	border-bottom:1px solid gray;
+	border-left:1px solid gray;
+	border-right:1px solid gray;
+}
+
+.divOczyszczalniaLab{
+	display: flex;
+    width: 195px;
+    height: 100%;
+    text-align: center;
+    border-right: 1px solid gray;
+}
+
+.labOczyszczalnia {
+	margin: auto;
+	padding-top: 3px;
+
+}
+.labOczysz {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px;
+}	
+
+.divOczyszczalniaDaneDane{
+	width:508px;
+	height:100%;
+	display:grid;	
+	border-right: 1px solid gray;
+}
+
+
+.divGotowka{
+	width:14%;
+	height:60px;
+	display:grid;
+	border-right:1px solid gray;
+	text-align:center;
+}
+
+.labGotowka{
+	margin: auto;
+	padding-top: 3px;
+}
+
+.divPrzelew{
+	width:13%;
+	height:60px;
+	display:grid;
+	text-align:center;
+}
+
+.labPrzelew{
+	margin: auto;
+	padding-top: 3px;
+}
+
+.divZleDatWywMain{
+    align-items: center;
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+    gap: .5rem;
+    left: inherit;
+    padding: 0;
+    position: static;
+    top: inherit;
+    z-index: inherit;	
+	border-left:1px solid gray;
+	border-right:1px solid gray;
+}
+
+.divZleDatWyw{
+	border-bottom:1px solid gray;
+
+	width:100%;
+	height:63px;
+	display: flex;
+}
+
+.divZleceniodawaLab{
+	display:flex;
+	width:20%;
+	height:100%;
+	text-align: center;
+	border-right:1px solid gray;
+}
+
+.labZleceniodawaH{
+	margin: auto;
+	padding: 10px;
+}
+.divZleceniodawaDane{
+	width:40%;
+	height:100%;
+	margin: auto;
+	display:inline-flex;
+	
+}
+
+.divZleceniodawaDaneLab{
+	width:30%;
+	height:100%;
+	display:grid;
+	text-align:center;
+	padding-top:7px;
+}
+
+.divZleceniodawaDaneDane{
+	width:70%;
+	height:100%;
+	display:grid;
+	border-right:1px solid gray;
+	border-left:1px solid gray;
+	display: grid;
+    align-content: space-around;
+}
+
+.divDataWyw{
+	width:40%;
+	height:100%;
+	margin: auto;
+	display:inline-flex;
+}
+
+.divDataWywLab{
+	width:30%;
+	display:grid;
+	border-right:1px solid gray;
+	text-align:center;
+}
+
+.labDataWywH{
+	margin: auto;
+	padding-top: 2px;
+}
+
+.divDataWywDane{
+	margin-left:20px;
+	margin: auto;
+	width:70%;	
+}
+
+.divZbiornikDane{
+	width:70%;
+	height:100%;
+	margin: auto;
+	display:inline-flex;	
+}
+
+.divZbiornikDaneLab{
+	padding-top: 4px;
+	width:60%;
+	height:100%;
+	display:grid;
+	text-align:center;
+	
+}
+
+.divZbiornikDaneDane{
+	width:40%;
+	height:100%;
+	display:grid;	
+	border-left:1px solid gray;
+}
+
+.ilm3{
+	width:94%;
+}
+
+.rb{
+	width:20px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.table_rap{
+	border-style: solid; 
+	border-color: black;
+}
+

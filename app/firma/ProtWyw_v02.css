@@ -1,0 +1,102 @@
+.divNaglowek {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+}
+
+.nagH1{
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.divKrakData {
+	display: flex;
+	width: 25%;	
+}
+
+.divOdstepDataNrProt{
+	display: flex;
+	width: 40%;	
+}
+.divNumerProt{
+	display: block ruby;
+	width: 35%;	
+}
+
+ .divProtWywDataNr {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+
+.formSzambo, .formFirma{
+	display: block;
+	width: 90%;
+	margin: auto;
+}
+
+.labDodajOsoba{
+	/*border: 2px solid orange;*/
+	color:#424949;
+	font-size:20px;
+	font-weight: bold;
+	margin:20px 0px 20px 5%;
+	position:relative;
+	display:block;
+}
+
+.divDodajProtokol {
+	width:40%;
+	/*height:200%;*/
+	border: 1px solid gray;
+	margin: auto;
+	position:relative;
+	display:fixed;
+}
+
+.divOsobaInProtWyw, .divSzamboInProtWyw, .divFirmaInProtWyw, .divchbWywozGmina, .divOczyszczalnia, .divPlatnosc, .divDataWyw {
+	height:100%;
+	width:90%;
+	margin:auto;
+}
+
+.divAdrOsoba, .divDaneSzamba, .divAdrSzambo{
+	width:100%;
+	height:10%;
+	/*border: 1px solid red;*/
+	font-size: 16px;
+	display:flex;
+}
+
+.divImNazOsoba{
+	width:100%;
+	height:10%;
+	/*border: 1px solid red;*/
+	font-size: 16px;
+	display:block;
+}
+
+.divNazFirInProtWyw{
+	/*border: 1px solid red;*/
+	font-size: 16px;
+	display:grid;
+}
+
+.divFirmaKodMiejInProtWyw{
+	/*border: 1px solid red;*/
+	display: inline-flex;	
+	width:100%;
+}
+
+.divFirmaUlicaNrInProtWyw{
+	/*border: 1px solid green;*/
+	display: inline-flex;	
+	width:100%;
+}
+.labchkWywozGmina{
+	font-weight: bold;
+	margin-left: 0.5em;
+}

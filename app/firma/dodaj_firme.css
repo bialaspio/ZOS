@@ -1,0 +1,207 @@
+.divdodfirma{
+	width:70%;
+	height:400px;
+/*	border: 2px solid gray;*/
+	margin: auto;
+	position:relative;
+	display:fixed;
+}
+
+.labDaneFirmy{
+	/*border: 2px solid orange;*/
+	color:#424949;
+	font-size:18px;
+	font-weight: bold;
+	margin:20px 0px 20px 0px;
+	position:relative;
+	display:block;
+}
+
+.divP1InForm{
+	height:100%;
+	width:50%;
+	display:fixed;
+	align-item:center
+}
+
+.divNazFir{
+	width:90%;
+	height:10%;
+	/*border: 1px solid red;*/
+	font-size: 16px;
+	display:grid;
+}
+
+.labDodFirma{
+	/*border: 1px solid blue;*/
+	display: inline-flex;
+	font-weight: bold;
+	color:#424949;
+	margin-bottom:5px;
+}
+
+.textDodFirma, .textNipFirma{
+	height:30px;	
+	border-radius: 5px;
+	border: 1px solid #BDC3C7;
+	margin-bottom:10px;
+	width:99%;
+}
+
+.divFirmaUlicaNr{
+	display: inline-flex;	
+	width:90%;
+}
+.divUlicaFir{
+	display:grid;
+	width:70%;
+}
+
+.divUlicOdstepNr{
+	display:flex;
+	width:2%;
+}
+
+.divNrFir{
+	display:grid;
+	width:28%;
+}
+
+.divFirmaKodMiej{
+	display: inline-flex;	
+	width:90%;
+}
+
+.divKodFir{
+	display:grid;
+	width:28%;
+}
+
+.divKodOdstepMiej{
+	display:flex;
+	width:2%;
+}
+.divMiejFir{
+	display:grid;
+	width:70%;
+}
+
+.divchbInnyAdrKorFir{
+	display: inline-flex;
+	font-weight: bold;
+	color:#424949;
+	margin-bottom:15px;
+	width:99%;
+}
+
+.divchbOdstepInnyAdrKor{
+	display:flex;
+	width:10px;
+}
+
+.labInnyAdrKor{
+	display: inline-flex;	
+	width:90%;
+}
+
+.divInnyAdrKor{
+	width:90%;
+	height:10%;
+	font-size: 16px;
+	display:grid;
+}
+
+.textnazInnyAdrKor{
+	height:60px;	
+	border-radius: 5px;
+	border: 1px solid #BDC3C7;
+	margin-bottom:10px;
+	width:99%;
+	
+}
+
+.divDodInfoFir{
+	width:90%;
+	height:10%;
+	font-size: 16px;
+	display:grid;
+}
+
+.labDodInfoFir{
+	display: inline-flex;
+	font-weight: bold;
+	color:#424949;
+	margin-bottom:5px;
+}
+
+.textnazDodInfo{
+	height:60px;	
+	border-radius: 5px;
+	border: 1px solid #BDC3C7;
+	margin-bottom:10px;
+	width:99%;
+}
+
+.divEmailFir{
+	width:90%;
+	height:10%;
+	font-size: 16px;
+	display:grid;
+}
+
+.labEmailFir{
+	display: inline-flex;
+	font-weight: bold;
+	color:#424949;
+	margin-bottom:5px;
+}
+
+.textEmailFir{
+	height:30px;	
+	border-radius: 5px;
+	border: 1px solid #BDC3C7;
+	margin-bottom:10px;
+	width:99%;
+}
+
+.divTelFir{
+	width:90%;
+	height:10%;
+	font-size: 16px;
+	display:grid;
+}
+
+.labTelFir{
+	display: inline-flex;
+	font-weight: bold;
+	color:#424949;
+	margin-bottom:5px;
+}
+
+.textTelFir{
+	height:30px;	
+	border-radius: 5px;
+	border: 1px solid #BDC3C7;
+	margin-bottom:10px;
+	width:99%;
+}
+.divButtZapisz{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right:5%;
+}
+
+.butZapisz{
+    border: 0;
+    line-height: 2;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    background-image: linear-gradient( to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0) );
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}

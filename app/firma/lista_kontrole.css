@@ -1,0 +1,59 @@
+.select-style-rwm{
+	padding: 0;
+	margin: 0;
+	border: 1px solid #ccc;
+	width: 10%;
+	height: 27px;
+	border-radius: 3px;
+	overflow: hidden;
+	background: #fafafa url("arrow.png") no-repeat 99% 50%;
+}
+
+.select-style-rwm select {
+    padding: 5px 8px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.div_wlasciciel, .div_AdresKonObie, .div_OsobaKontr{
+	width: 15%;
+}
+
+.ImieNazwWlSzamba, .AdresKonObie, .OsobaKontr {
+	height: 30px;
+  	border-radius: 5px;
+  	border: 1px solid #BDC3C7;
+  	width: 98%;
+}
+
+.divAdrWlSzamba, .divAdrObiektu, .divOsobaKontr{
+	height: auto;
+	border-top: 5px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	font-size: 16px;
+	align-items: center;
+  	justify-content: center;
+}
+
+.labDivDaneWl, .labDivDaneObiektu{
+	margin-right: 5px;
+	margin-block: auto;
+}
+
+.UlicObie, .MiejsObie{
+	height: 20px;
+  	border-radius: 5px;
+  	border: 1px solid #BDC3C7;
+  	width: 98%;
+}
+.a{
+	border: 1px solid lightgray
+}
